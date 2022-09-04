@@ -1,0 +1,193 @@
+html{
+    height: 100%;
+    width: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important; 
+    height: 100%;
+    width: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+.colored-section{
+    background-color:lightgrey;
+}
+a{
+    color: white;
+}
+.logo{
+    margin: 0 1%;
+}
+.nav-brand{
+    font-size: 4rem;
+}
+.nav-button{
+    margin-left: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item{
+    
+    margin: 0 8%;
+}
+.big-heading{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title-img{
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 12%;
+}
+.download-buttons{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.download-button{
+    margin: 2% 2%;
+    width: 11rem;
+}
+@media only screen and (max-width: 1000px){
+    .big-heading{
+        padding: 0%;
+        margin: 15% 0;
+        text-align: center;    }
+        .download-buttons{
+            margin-top: 15%;
+            padding: 0%;
+            margin: 0%;
+            text-align: center;
+        }
+        .nav-item{
+            text-align: center;
+            margin-left: -62%;
+        }
+        .big-heading3{
+            line-height: 125%;
+        }
+}
+.dark-section{
+    color: lightgray;
+}
+i{
+    margin: 0.3rem;
+}
+.feature-tite{
+    text-align: center;
+}
+.feature-box{
+    padding: 5%;
+    text-align: center;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: darkgray;
+    text-align: center;
+}
+
+.icon{
+    margin-bottom: 3%;
+}
+.icon:hover{
+    color: darkgray;
+}
+.big-heading2{
+    font-family: 'Ubuntu';
+    text-align: center;
+    padding-top: 5rem;
+}
+#price-p{
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.price-text{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.pricing-coloumn{
+    text-align: center;
+    padding: 1rem;
+}
+.carousel-text{
+    font-size: 1.5rem;
+    padding: 10% 15%;
+    text-align: center;
+    line-height: 4rem;
+}
+#carousel-p{
+    text-align: center;
+    padding-bottom: 40%;
+    
+}
+.testi-img{
+    width: 6%;
+    border-radius: 100%;
+    margin: 1%;
+}
+#testi-lame{
+    font-size: 1.2rem;
+}
+.carousel-item{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.big-heading3{
+    text-align: center;
+    font-family: 'Ubuntu','san-sarif';
+    font-size: 2.5rem;
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.download-buttons2{
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 5rem;
+}
+.download-button2{
+    margin: 1rem;
+    width: 15rem;
+}
+.footer-icon{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5rem;
+}
+.footer-icon i{
+    margin: 1rem;
+}
+.footer-text{
+    padding: 1rem;
+}
+.footer-link{
+    color: lightgray;
+}
+.footer-link:hover{
+    color: darkgray;
+}
+.button-link{
+    text-decoration: none;
+    color: lightgrey;
+}
+.button-link:hover{
+    color: darkgrey;
+}
+.button-link-light{
+    text-decoration: none;
+    color: black;
+}
+.button-link-light:hover{
+    color: lightgray;
+}
